@@ -1,0 +1,129 @@
+/* Esto es un comentario...  */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.header {
+    background-color: #076af0;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin: 0 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+   background-color: #024070; 
+   transition: 0.5s;
+   font-size: 20px;
+}
+.aside {
+    background-color: grey;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 20%;
+    bottom: 20px;
+}
+
+.contenido {
+    padding: 20px 20px;
+    background-color: burlywood;
+    position: fixed;
+    top: 80px;
+    left: 20%;
+    right: 0;
+    bottom: 20px;
+    overflow-y: scroll;
+}
+
+.pie {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+p {
+    color: green;
+}
+
+aside p {
+    color: blue;
+}
+
+h1, h2, h3 {
+    font-family: cursive;
+}
+
+#titulo {
+    font-family: serif;
+    color: tomato;    
+}
+
+.producto {
+    font-size: 16px;
+    color: aqua;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.textoDerecha {
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rosybrown;
+}
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}

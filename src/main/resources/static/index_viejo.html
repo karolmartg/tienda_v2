@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Esta es la primera página del curso... -->
+<html lang="es">
+    <head>
+        <title>TechShop</title>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Página principal del sitio TechShop"/>
+        <meta name="keywords" content="Adidas,puma,nike,html,css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">            
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="ejemplo6.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="videos.html">Vídeos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="iframe.html">IFrame</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <aside class="aside">
+            <h2>Últimas noticias</h2>
+            <p>Los productos de la empresa Dell, sufriran un incremente en un 20% en febrero respecto a los precios del mes de enero</p>
+            <p>Los de HP, se mantienen igual...</p>
+        </aside>
+
+        <section class="contenido">
+            <h2 id="titulo">Nuestro Productos</h2>
+            <article>
+                <header>
+                    <h3>Listado de Clientes</h3>
+                </header>
+                <table border="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Crédito</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="textoCentrado">1</td>
+                            <td>Juan Pérez</td>
+                            <td class="textoCentrado">36</td>
+                            <td class="textoDerecha">¢850.000</td>
+                            <td><a href="/cliente/eliminar/1">Eliminar</a>
+                                <a href="/cliente/modificiar/1">Modificar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="textoCentrado">2</td>
+                            <td>Alejandra Matamoros</td>
+                            <td class="textoCentrado">28</td>
+                            <td class="textoDerecha">¢1.250.000</td>
+                            <td><a href="/cliente/eliminar/2">Eliminar</a>
+                                <a href="/cliente/modificiar/2">Modificar</a></td>                            
+                        </tr>
+                        <tr>
+                            <td class="textoCentrado">3</td>
+                            <td>Hernesto Piedra</td>
+                            <td class="textoCentrado">18</td>
+                            <td class="textoDerecha">¢75.000</td>
+                            <td><a href="/cliente/eliminar/3">Eliminar</a>
+                                <a href="/cliente/modificiar/3">Modificar</a></td>
+                        </tr>
+                        <tr>
+                            <td class="textoCentrado">4</td>
+                            <td>Maria Mena</td>
+                            <td class="textoCentrado">23</td>
+                            <td class="textoDerecha">¢338.000</td>
+                            <td><a href="/cliente/eliminar/4">Eliminar</a>
+                                <a href="/cliente/modificiar/4">Modificar</a></td>                            
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </article> 
+
+            <article>
+                <header>
+                    <h3 class="producto">Alienware 5000</h3>
+                </header>
+                <figure>
+                    <img src="img/alienware5000.jpg" alt="Alienware 5000" width="75"/>
+                    <figcaption>Especial para Gamers</figcaption>
+                </figure>
+                <h4>Características</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit rhoncus curae fringilla, sapien ligula dis facilisi massa metus interdum elementum varius, odio ultrices eleifend nec vivamus posuere tellus penatibus aliquet. Dui sodales eget tincidunt inceptos sociosqu congue lacinia mauris, risus nibh arcu cursus cubilia nullam malesuada habitasse, integer rutrum fermentum justo proin magnis pharetra. Habitasse volutpat maecenas fermentum luctus elementum dui morbi iaculis vestibulum quis, cubilia parturient dis nostra molestie ac urna turpis ridiculus, eget fringilla sapien blandit curabitur lobortis pulvinar cursus velit. Nascetur enim faucibus curae accumsan luctus ultrices tortor feugiat vel quam metus sagittis netus, placerat gravida ligula mus litora odio eleifend quisque vestibulum senectus ac.</p>
+                <footer>¢650.000 <a href="#">Comprar</a><hr></footer>
+            </article> 
+
+            <article>
+                <header>
+                    <h3 class="producto">Impresora HP 3D</h3>
+                </header>
+                <figure>
+                    <img src="img/impresora3d.jpg" alt="Impresora 3D HP" width="75"/>
+                    <figcaption>Múltiples colores</figcaption>
+                </figure>
+                <h4>Características</h4>
+                <p>Rutrum vehicula interdum fames nisl eu velit, senectus id sapien himenaeos netus massa, ornare nunc sociis vel congue. Scelerisque imperdiet risus himenaeos molestie nascetur hac viverra nibh habitasse facilisi porttitor, quis fringilla vestibulum interdum urna sollicitudin est rhoncus et class. Tristique magnis metus placerat pellentesque litora nibh accumsan montes eleifend orci ante, aenean faucibus non urna vulputate consequat conubia lacinia sem suscipit, curae platea per eget ut nisi parturient a torquent egestas.</p>
+                <footer>¢5550.000 <a href="#">Comprar</a><hr></footer>
+            </article> 
+
+            <article>
+                <header>
+                    <h3 class="producto">Portatil DELL</h3>
+                </header>
+                <figure>
+                    <img src="img/portatil.png" alt="Portatil dell" width="75"/>
+                    <figcaption>Bateria para 8 horas</figcaption>
+                </figure>
+                <h4>Características</h4>
+                <p>Dictum posuere interdum phasellus nullam curabitur libero et nam, tempor pharetra fermentum nisl sociosqu lectus maecenas, sociis tortor hac cubilia felis litora senectus. Parturient ante morbi quam proin felis eleifend curabitur molestie, vestibulum conubia quis per sagittis vel mus semper, duis elementum lacus habitant nisl magnis neque. Sapien elementum sodales placerat augue commodo pretium, primis quam molestie nascetur iaculis euismod luctus, netus tortor fusce ultricies id. Justo euismod potenti sem a mollis luctus quisque lacus, maecenas pellentesque aptent phasellus felis morbi himenaeos, donec cursus urna ridiculus accumsan porttitor dui.</p>
+                <footer>¢750.000 <a href="#">Comprar</a><hr></footer>
+            </article>
+        </section>
+        <footer class="pie">Desarrollos Tecnológicos Coronado 2023 &COPY;</footer>
+    </body>
+</html>
